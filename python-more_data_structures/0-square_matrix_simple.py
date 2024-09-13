@@ -8,5 +8,4 @@ def square_matrix_simple(matrix=[]):
 
         nouvelle_matrice.append(nouvelle_ligne)
 
-
     return nouvelle_matrice
