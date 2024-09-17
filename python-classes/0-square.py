@@ -1,6 +1,10 @@
 #!/usr/bin/python3
-"""exemple placeholder"""
+"""Module for defining a Square class."""
+
+
 class Square:
-    """test pour voir si ça fonctionne (juste un placeholder"""
+    """Represents a square shape.
+
+    This is a placeholder class for future implementation.
+    """
     pass
-    """le truc pour pass"""
