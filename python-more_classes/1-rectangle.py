@@ -1,5 +1,7 @@
 #!/usr/bin/python3
+
 """placeholder
+
 
     Raises:
         TypeError: _description_
@@ -10,6 +12,7 @@
     Returns:
         _type_: _description_
     """
+
 
 class Rectangle:
     """Class that defines a rectangle by width and height."""

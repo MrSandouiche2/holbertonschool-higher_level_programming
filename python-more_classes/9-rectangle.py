@@ -13,6 +13,7 @@
         _type_: _description_
     """
 
+
 class Rectangle:
     """Class that defines a rectangle by width and height,"""
 
