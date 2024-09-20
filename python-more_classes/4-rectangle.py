@@ -1,4 +1,15 @@
 #!/usr/bin/python3
+"""
+
+    Raises:
+        TypeError: _description_
+        ValueError: _description_
+        TypeError: _description_
+        ValueError: _description_
+
+    Returns:
+        _type_: _description_
+    """
 
 class Rectangle:
     """Class that defines a rectangle by width and height."""
