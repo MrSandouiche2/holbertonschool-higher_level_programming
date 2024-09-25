@@ -1,0 +1,2 @@
+inheritance python
+(heritage)
