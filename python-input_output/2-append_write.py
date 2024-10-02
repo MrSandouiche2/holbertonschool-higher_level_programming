@@ -2,5 +2,6 @@
 """le depart"""
 
 def append_write(filename="", text=""):
-    with open(filename,'a', encoding='utf-8') as f:
-        f.write(text)
+    with open(filename, 'a', encoding='utf-8') as f:
+        nb_characters = f.write(text)
+    return nb_characters
