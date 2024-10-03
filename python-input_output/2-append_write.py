@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 """le depart"""
 
+
 def append_write(filename="", text=""):
     """ la fonction"""
     with open(filename, 'a', encoding='utf-8') as f:
