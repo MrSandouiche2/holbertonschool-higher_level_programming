@@ -13,7 +13,7 @@ def hello_world():
 
 @app.route("/data")
 def get_users():
-    return jsonify(users)
+    return jsonify(list(users.keys()))
 
 @app.route("/status")
 def status():
@@ -37,16 +37,18 @@ def add_user():
         age = data.get("age")
         city = data.get("city")
 
-
         if not username:
             return jsonify({"error": "Username is required"}), 400
 
         if username in users:
             return jsonify({"error": "Username already exists"}), 400
 
-
-        users[username] = {"username": username, "name": name, "age": age, "city": city}
-
+        users[username] = {
+            "username": username,
+            "name": name or "Unknown",
+            "age": age or 0,
+            "city": city or "Unknown"
+        }
 
         return jsonify({"message": "User added", "user": users[username]}), 201
     else:
