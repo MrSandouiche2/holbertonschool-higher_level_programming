@@ -1,2 +1,2 @@
 -- first sql script.
-HOW DATABASES;
+SHOW DATABASES;
